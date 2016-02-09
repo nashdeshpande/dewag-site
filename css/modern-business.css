@@ -19,8 +19,22 @@ body {
     margin-bottom: 30px;
 }
 
+.img-portfolio-row {
+	margin-top: 15px;
+    margin-bottom: 30px;
+}
+
 .img-hover:hover {
     opacity: 0.8;
+}
+
+div#multiColumn {
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
 }
 
 /* Home Page Carousel */
